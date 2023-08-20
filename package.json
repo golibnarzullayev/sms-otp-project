@@ -1,0 +1,32 @@
+{
+  "name": "sms-otp",
+  "version": "1.0.0",
+  "description": "SMS OTP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "sms",
+    "otp"
+  ],
+  "author": "G'olib Narzullayev <gnarzullayev2000@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "bcrypt": "^5.1.1",
+    "connect-mongodb-session": "^3.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^7.1.2",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.4.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
